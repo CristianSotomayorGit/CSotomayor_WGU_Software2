@@ -23,7 +23,7 @@ import models.AppointmentDB;
 /**
  * FXML Controller class
  *
- * @author Benjamin
+ * @author Cristian Sotomayor
  */
 public class AppointmentModifyController implements Initializable {
 

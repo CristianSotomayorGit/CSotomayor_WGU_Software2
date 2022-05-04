@@ -13,7 +13,7 @@ import java.time.ZonedDateTime;
 
 /**
  *
- * @author Benjamin
+ * @author Cristian Sotomayor
  */
 public class Logger {
     private static final String FILENAME = "log.txt";

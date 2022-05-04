@@ -10,7 +10,7 @@ import javafx.beans.property.SimpleStringProperty;
 
 /**
  *
- * @author Benjamin
+ * @author Cristian Sotomayor
  */
 public final class Customer {
     private final SimpleIntegerProperty customerId = new SimpleIntegerProperty();

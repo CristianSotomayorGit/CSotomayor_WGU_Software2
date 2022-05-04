@@ -13,7 +13,7 @@ import utils.Logger;
 
 /**
  *
- * @author Benjamin
+ * @author Cristian Sotomayor
  */
 public class UserDB {
     private static User currentUser;

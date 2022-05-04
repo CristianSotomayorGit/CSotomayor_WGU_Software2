@@ -19,7 +19,7 @@ import models.CustomerDB;
 /**
  * FXML Controller class
  *
- * @author Benjamin
+ * @author Cristian Sotomayor
  */
 public class CustomerModifyController implements Initializable {
 

@@ -28,7 +28,7 @@ import models.UserDB;
 
 /**
  *
- * @author Benjamin
+ * @author Cristian Sotomayor
  */
 public class LoginController implements Initializable {
     

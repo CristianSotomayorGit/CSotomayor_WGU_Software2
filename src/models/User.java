@@ -7,7 +7,7 @@ package models;
 
 /**
  *
- * @author Benjamin
+ * @author Cristian Sotomayor
  */
 public class User {
     private String username;

@@ -21,7 +21,7 @@ import utils.Database;
 /**
  * FXML Controller class
  *
- * @author Benjamin
+ * @author Cristian Sotomayor
  */
 public class ReportsMainController implements Initializable {
 

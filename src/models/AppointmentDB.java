@@ -21,7 +21,7 @@ import utils.Database;
 
 /**
  *
- * @author Benjamin
+ * @author Cristian Sotomayor
  */
 public class AppointmentDB {
      

@@ -18,7 +18,7 @@ import javafx.beans.property.StringProperty;
 
 /**
  *
- * @author Benjamin
+ * @author Cristian Sotomayor
  */
 public class Appointment {
     private final SimpleIntegerProperty aptId = new SimpleIntegerProperty();
