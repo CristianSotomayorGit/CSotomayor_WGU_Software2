@@ -12,6 +12,8 @@ import javafx.scene.Scene;
 import javafx.stage.Stage;
 import utils.Database;
 
+import java.util.Objects;
+
 /**
  *
  * @author Cristian Sotomayor
@@ -20,7 +22,7 @@ public class Scheduler extends Application {
     
     @Override
     public void start(Stage stage) throws Exception {
-        Parent root = FXMLLoader.load(getClass().getResource("views/Login.fxml"));
+        Parent root = FXMLLoader.load(getClass().getResource("/views/Main.fxml"));
         Scene scene = new Scene(root);
         stage.setScene(scene);
         stage.show();

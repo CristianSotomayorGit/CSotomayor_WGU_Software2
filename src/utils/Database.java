@@ -14,12 +14,12 @@ import java.sql.SQLException;
  * @author Cristian Sotomayor
  */
 public class Database {
-    private static final String protocol = "jdbc";
+    private static final String protocol = "jdbc:";
     private static final String vendor = "mysql:";
-    private static final String location = "//localhost/";
+    private static final String location = "//localhost:3306/";
     private static final String databaseName = "client_schedule";
-    private static final String jdbcUrl = protocol + vendor + location + databaseName + "?connectionTimeZone = SERVER"; //LOCAL
-    private static final String driver = "com.mysql.jdbc.Driver";
+    private static final String jdbcUrl = protocol + vendor + location + databaseName ; //LOCAL
+    private static final String driver = "com.mysql.cj.jdbc.Driver";
     private static final String username = "sqlUser";
     private static String password = "Passw0rd!";
     private static Connection connection;
